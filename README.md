@@ -24,7 +24,11 @@ Couple notes to get this working locally, if you're ummm... NOT ME
 9. This is a pretty standard way of adding libraries to a Xcode project, if there's a library that I didn't leave instructions for (ie. SOIL) use the same steps, notably 3-8.  Because you know honestly, sometimes brew doesn't have the libraries you need. 
 
 10. There are some local files (vertex and fragment shaders) to jerry right that set your working directory by:
+
 	a. Click on Product > Scheme > Edit Scheme
+
 	b. Click on Run on the Left Menu.
+
 	c. On the Right menu, find "Working Directory" and click the "Use Custom Directory" box.
+
 	d. Set the path to wherever the vertex and fragment shaders are located locally (this should be within the project).
